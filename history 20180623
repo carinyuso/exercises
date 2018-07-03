@@ -1,0 +1,6 @@
+## uninstall completely or remove delete a package completely
+	dpkg --list //first, check out the name of the package you want to remove
+	sudo apt-get remove package_name
+	sudo apt-get purge package_name
+	sudo apt-get autoremove
+	sudo apt-get clean
